@@ -1,0 +1,41 @@
+{
+    "name": "Sonali",
+    "imgUrl": "https://pbs.twimg.com/profile_images/1239518997990658049/t_pwDuJb_400x400.jpg",
+    
+    "skills": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "C/C++",
+        "Java",
+        "Python",
+        "Digital Marketing",
+        "Blogging"
+    ],
+    "projects": [
+        {
+            "title": "Dine In",
+            "brief": "Customers Place order while scanning QR code on tables , Check menu and place orders. Hotel Manager / staff checks the orders and serve it to customers . Customers check out with payment.",
+            "des": "Customers Place order while scanning QR code on tables , Check menu and place orders Hotel Manager / staff checks the orders and serve it to customers . Customers check out with payment ( online / cash mode ) . Deployment of the project to cloud considering continous integration.",
+            "link": "https://github.com/WooTechnology/DINE-IN"
+        },
+        {
+            "title": "Medilocker",
+            "brief": "It is a web application to store medical records of the user making it more secure and easy to manage",
+            "des": "MediLocker consists of a web app which holds updated details and medical history of a person. The records are easy to handle and secure. We will use cloud server to store the database of users. The database can be retrieved using a unique QR code of a user. Whenever a person approaches doctor, his data can be easily retrieved by getting a link through scanning his QR code. This will help in analysing one's medical background in less time and will result in more accurate treatment. In this way, a person doesn't have to carry documents all the time. Without actual documents, his data can be easily accessed and will help in keeping track of all the reports and medicines, that the person has ever gone through. This will result in leafless, virtual and  shielded ambiance.",
+            "link": "https://github.com/Sonali12920/Medi_Locker"
+        },
+        {
+            "title": "To Do",
+            "brief": "To do list helps in organizing your tasks with a list can make everything much more manageable ",
+            "des": "ToDoList is software in the category of Task Management, Project Management, Productivity, “Getting Things Done” (GTD), Scheduling, and Collaboration. We have a lot of choices to help us keep track of daily obligations. A to-do allows you to better manage your time by allowing you to lay out what you need to accomplish and then coordinate your time from there. When you first compose it, you’ll note the most important tasks and make time for them. ",
+            "link": "https://github.com/Sonali12920/TO-DO"
+        }
+    ],
+    "aboutiam":"Sonali!! currently pursuing BTech in Information Technology domain from Indira Gandhi Delhi Technical University For Women, Delhi. •Campus Ambassador at Gig India. •Member of Developer Student Club, IGDTUW, •Community Manager at InCampus",
+    "aboutiwas":"•Mentee at WooTech and made a project DINE-IN with team. Project has been appreciated by one of the startups of India. Link to project: https://github.com/WooTechnology/DINE-IN •Mentee at Codonfest organized by Skillship Foundation. •Worked as a Campus Ambassador for National Engineering Olympiad 2.0 and 3.0. •Campus Leader of 6 months Leadership Internship by National Engineering Olympiad.",
+    "aboutimpass":"about •Designing and creating web apps. • Learning, enhancing my knowledge, and tackling challenges. •Solving problems. •Communicating with people and growing my network.",
+    "aboutextraact":"•Event Management Head Coordinator of Taarangana - Cultural fest. •Head Coordinator and Volunteer at Rotaract Club. •Member of Technoliterati Society, IGDTUW. "
+  
+}
+
