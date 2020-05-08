@@ -30,8 +30,11 @@ export default {
 
 <style>
 .card{
-  padding: 30px 30px;
-  margin:30px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: auto; 
+  padding-left:auto;
+  margin:30px auto;
   border-radius: 2px;
   text-align: center;
   border-left-color:  rgb(168, 245, 228) ;
@@ -39,6 +42,10 @@ export default {
    border-top-color:  rgb(168, 245, 228) ;
   border-top-width: 8px;
   
+}
+.card:hover{
+   color:white;
+   background-color: black;
 }
 h2{
   text-align: center;

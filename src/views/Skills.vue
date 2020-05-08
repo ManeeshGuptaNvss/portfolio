@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import Skillscomp from '@/components/skills/skillscreen'
+import Skillscomp from "@/components/skills/skillscreen"
 export default {
-    name:"Skillscompo",
-    componenets:{
+    name:"skillscompo",
+    components:{
         Skillscomp
     },
     data:()=>({

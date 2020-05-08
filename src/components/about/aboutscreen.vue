@@ -55,12 +55,15 @@ import maindata from '@/assets/data/main.json'
     padding: 30px;
 }
 .card{
-    padding:10px 10px;
-    margin:10px 10px;
+    padding:auto auto;
+    margin:auto auto;
     text-align: center;
     border-left-color:  rgb(97, 203, 245) ;
     border-left-width: 8px;
     border-radius: 3px;
 }
-
+.card:hover{
+   color:white;
+   background-color: black;
+}
 </style>
