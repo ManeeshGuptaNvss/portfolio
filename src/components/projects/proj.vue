@@ -37,10 +37,14 @@ export default {
   margin:30px auto;
   border-radius: 2px;
   text-align: center;
-  border-left-color:  rgb(168, 245, 228) ;
-  border-left-width: 8px;
-   border-top-color:  rgb(168, 245, 228) ;
-  border-top-width: 8px;
+  border-left-color: black ;
+  border-left-width: 5px;
+   border-top-color:  black ;
+  border-top-width: 6px;
+  border-right-color: black;
+   border-bottom-color: black;
+  max-width:100%;
+  
   
 }
 .card:hover{

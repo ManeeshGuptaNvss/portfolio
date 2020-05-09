@@ -5,7 +5,7 @@
                 <img class="profileimg" :src="maindata1.imgUrl" alt="">
             </div>
         </div>
-        <div class="row py-4 text-center" >
+        <div class="row py-4 text-center"  >
              <div class="col-md-12">
                   <h1>{{maindata1.name}}</h1><br>
                      <p>Student at IGDTUW || Community Manager at InCampus Ltd ||
@@ -27,8 +27,8 @@ import maindata from '@/assets/data/main.json'
 <style>
     .profileimg{
         border-radius: 50%;
-        max-width: 25%;
-        max-height:15%;
+        max-width: 70%;
+        max-height:65%;
         margin-left: auto;
         margin-right: auto;
     }

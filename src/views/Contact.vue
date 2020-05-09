@@ -1,18 +1,18 @@
 <template>
-    <div class="conatiner">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <Contactcomp/>
+                <contactcomp/>
             </div>
         </div>
     </div>   
 </template>
 <script>
-import Contactcomp from '@/components/contact/contacts'
+import contactcomp from '@/components/contact/contacts'
 export default {
     name:'ContactComponent',
     components:{
-        Contactcomp
+        contactcomp
     },
     data:()=>({
 

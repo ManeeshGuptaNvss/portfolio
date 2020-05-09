@@ -13,7 +13,7 @@
             <input type="email" class="form-control"   v-model="email" id="exampleFormControlInput1" placeholder="Email">
          </div>
       </div>
-      <div class="col-md-12">
+      <div class="col-md-12" >
         <div class="form-group" >
         <textarea class="form-control" id="exampleFormControlTextarea1" v-model="msg" rows="4" placeholder="Message"></textarea>
         </div>
@@ -23,21 +23,24 @@
        <div v-else class="spinner-border text-primary" role="status">
         <span class="sr-only">Loading...</span>
        </div>
-      </div> 
+      </div>
     </div>
    </div> 
-      <div class="row py-5" >
-         <div class="col-md-12">
-              <div class="card" style="max-width:60%">
+ 
+     
+       <div class="row py-5">
+        <div class="col-md-12"  id="coll">
+          <div class="card" id="icon" >
                   <h4>You can also find me at</h4>
-                  <i class="material-icons md-18">emailicon</i>
-                  <span class="mdi mdi-facebook-box"></span>
-                  <span class="mdi mdi-github-circle"></span>
-                  <span class="mdi mdi-instagram"></span>
-                  
-             </div>
-         </div>
-      </div>
+                  <!-- <div class="card" id="ic"> -->
+                  <a href="https://www.linkedin.com/in/sonali-a989a8192/" target="blank"><span class="mdi mdi-linkedin"  id="li" style="list-style:none; margin:0 15px;"></span></a>
+                  <a href="https://github.com/Sonali12920" target="blank"><span class="mdi mdi-github" style="list-style:none; margin:0 15px;"></span></a>
+                  <a href="https://www.facebook.com/profile.php?id=100038520653307" target="blank"><span class="mdi mdi-facebook" style="list-style:none; margin:0 15px;"></span></a>
+                  <a href="https://www.instagram.com/_.sona2921._/" target="blank"><span class="mdi mdi-instagram" style="list-style:none; margin:0 15px;"></span></a> 
+                  <!-- </div> -->
+              </div>
+            </div> 
+        </div>  
 </div>
 </template>
 <script>
@@ -70,49 +73,40 @@ export default {
         alert('You must write something first')
       }
     }
-  }
-    
+  } 
 }
 </script>
 <style>
 .card{
   margin:auto auto;
-  padding:30px 30px;
-  max-width:70%;
+  padding:35px 35px;
+  max-width:100%;
 }
-/* .row{
-    margin:10px 30px;
-}
-.card{
-    margin:auto auto;
-    padding: auto auto;
-    border-left-color:rgb(57, 135, 236);
-    border-left-width: 9px;
-    border-radius: 15%;
-    border-right-color: rgb(57, 135, 236);
-    border-right-width: 9px;
-    border-top-color: rgb(38, 148, 182);
-    border-top-width: 1px;
-    border-bottom-color: rgb(38, 148, 182);
-    border-bottom-width: 1px;
-}
-
-.form-control1{
-   margin:0% auto;
-   max-width: 500px;
-} 
-.form-control{
-
-}
-h4{
-    text-align: center;
-} */
 h4{
   text-align:center;
 }
 .from-control{
   margin:auto auto;
-  max-width:60%;
+  max-width:80%;
+
+}
+#coll{
+  text-align: center;
+}
+#icon{
+display:inline-block;
+max-width:100%;
+border:transparent;
+text-align:center;
+
+}
+.mdi{
+  font-size: 30px;
+  transition:0.6s;
+  color:#000;
+  width:30%;
+  height:30%;
+  border-radius:50%;
 }
 
 

@@ -59,8 +59,9 @@ import maindata from '@/assets/data/main.json'
     margin:auto auto;
     text-align: center;
     border-left-color:  rgb(97, 203, 245) ;
-    border-left-width: 8px;
+    border-left-width: 5px;
     border-radius: 3px;
+    max-width:100%;
 }
 .card:hover{
    color:white;
