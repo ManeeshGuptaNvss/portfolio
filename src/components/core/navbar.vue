@@ -1,11 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#" >
-      <img
+      <img 
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReNHXxiCMbFPVf-toIzY4KU7ahs4AJhDmCYFk2iJVS9fzXhiyf&usqp=CAU"
         width="40"
         height="40"
-        alt
       />
     </a>
     <button
@@ -20,7 +19,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
       <ul class="nav nav-tabs">
       
       <li class="nav-item" >

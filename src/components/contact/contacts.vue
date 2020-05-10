@@ -26,8 +26,6 @@
       </div>
     </div>
    </div> 
- 
-     
        <div class="row py-5">
         <div class="col-md-12"  id="coll">
           <div class="card" id="icon" >
@@ -87,6 +85,9 @@ export default {
   margin:auto auto;
   padding:35px 35px;
   max-width:100%;
+  border-color:#000;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
 }
 h4{
   text-align:center;
@@ -101,10 +102,8 @@ h4{
 }
 #icon{
 display:inline-block;
-max-width:100%;
-border:transparent;
+max-width:100%; 
 text-align:center;
-
 }
 .mdi{
   font-size: 30px;

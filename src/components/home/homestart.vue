@@ -32,4 +32,5 @@ import maindata from '@/assets/data/main.json'
         margin-left: auto;
         margin-right: auto;
     }
+
 </style>
