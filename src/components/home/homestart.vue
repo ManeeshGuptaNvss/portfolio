@@ -27,8 +27,8 @@ import maindata from '@/assets/data/main.json'
 <style>
     .profileimg{
         border-radius: 50%;
-        max-width: 70%;
-        max-height:65%;
+        max-width: 50%;
+        max-height:40%;
         margin-left: auto;
         margin-right: auto;
     }

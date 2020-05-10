@@ -49,20 +49,26 @@ import firebase from '@/components/config/firebase'
 export default {
     name: "contactcomp",
     data: () => ({
-      msg:'',
+      name:'',
+      email:'',
+      mas:'',
       spinner:false
   }),
   methods: {
       addData(){
       this.spinner=true
-      if(this.msg.length>0){
-        let AddData={
+      if(this.name.length>0 && this.email.length>0 && this.msg.length>0){
+        let obj={
+          name:this.name,
+          email:this.email,
           msg: this.msg
         }
-       firebase.firestore.collection('msgs').add(AddData).then(res=>{
+       firebase.firestore.collection('msgs').add(obj).then(res=>{
           console.log(res)
           this.spinner = false
           alert('Message Sent')
+          this.name=''
+          this.email=''
           this.msg = ''
         }).catch(e=>{
           this.spinner = false
